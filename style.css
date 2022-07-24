@@ -1,0 +1,97 @@
+.orange-bg{
+    background-color: #fceae8;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+ul .nav-item a:hover{
+    color: #FF136F;
+    transform: scale(1.2);
+}
+
+.carousel-item{
+    padding: 20px 20px;
+}
+
+.price{
+    color: #FF136F;
+}
+
+.buy-now-button{
+   background-image: linear-gradient(to bottom, #FF5898 0%, #FF136F 100%);
+   color: white;
+   border: none;
+   padding: 8px 25px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.buy-now-button:hover{
+    border: 2px solid #FF136F;
+    background: transparent;
+    background-color: grey;
+}
+
+.cat1, .cat2, .cat3{
+    padding: 8px 30px;
+}
+
+.cat1 img:hover, .cat2 img:hover, .cat3 img:hover{
+    transform: scale(1.2);
+}
+
+.card img:hover{
+    transform: scale(1.15);
+}
+
+.cat1{
+    background-image: linear-gradient(to right, rgb(221, 155, 34) 0%, #e74684 100%);
+}
+
+.cat2{
+    background-image: linear-gradient(to right, rgb(149, 79, 158) 20%, #e74684 80%);
+}
+
+.cat3{
+    background-image: linear-gradient(to right, rgba(80, 6, 190) 0%, rgb(200, 80, 150) 100%);
+}
+
+.categories{
+    margin-bottom: 80px;
+}
+
+.categories h1{
+    color: white;
+}
+
+.categories img{
+    height: 100px;
+    width: 100px;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+
+.card-footer {
+    background-color: white; 
+    border-top: none;
+}
+
+#subscribe{
+    height: 18rem;
+}
+
+footer{
+    text-align: center;
+}
+
+.subscribe{
+    font-size: 30px;
+    text-align: center;
+}
+
+.updates{
+    color: gray;
+}
